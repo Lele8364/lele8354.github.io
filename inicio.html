@@ -30,7 +30,8 @@
             QUE COCA-COLA VENDIO SOLAMENTE 25 BOTELLAS EN SU PRIMER AÑO.
             ¡NO TE RINDAS NUNCA!</STrong>
             </P>
-            <a href="a" class="btn-1">Quienes Somos</a>    
+            <a  onclick="scrollToSection()" href="#" class="btn-1">Quienes Somos</a>  
+                
         </div>
       
     </div>
@@ -41,20 +42,25 @@
  
    
     <div class="general-1 txt">
+        <div class="pin">
         <h3>Coca-Cola Cero</h3>
         <p>
            Zero es una de las variantes que no tiene calórias.Es un sabor,
            de alta calidad,con cero calorias,cero azucar y baja en sodio.
         </p>
     </div>
+    </div>
     <div class="general-2 txt">
+        <div class="pin">
         <h3>Coca-Cola Sin Cafeina</h3>
         <p>
             Coca-Cola Sin Cafeina es una bebida de fantastico sabor 
             que mantiene toda la calidad de Coca-Cola, sin cafeina.
         </p>
     </div>
+</div>
     <div class="general-3 txt">
+        <div class="pin">
         <h3> Coca-Cola</h3>
         <p>
             Contiene azucar, lo que le da un sabor dulce caracteristico, es un bebida 
@@ -62,14 +68,16 @@
             en mas de docientos paises o territorios.
         </p>
     </div>
+    </div>
 </div>
 </section>
 
 <section class="info-1">
-     <div class="info-content container">
+     <div class="info-content container" id="seccion">
+        <h6><!-- >hola< !--></h6>
        <h2> QUIENES SOMOS</h2>
-    <P> <strong>The Coca-Cola Company: Fundada en 1886, The Coca-Cola Company es la compañía de bebidas más grande del mundo,
-     refrescando a sus consumidores con más de 500 marcas de refrescos y bebidas no-carbonatadas.</strong> </P>
+    <p><strong>The Coca-Cola Company: Fundada en 1886, The Coca-Cola Company es la compañía de bebidas más grande del mundo,
+     refrescando a sus consumidores con más de 500 marcas de refrescos y bebidas no-carbonatadas.</strong></p> 
   
 </section>
 
@@ -80,6 +88,7 @@
      
        
         <div class="general-4 txt">
+            <div class="pin">
             <h3>Coca-Cola 3L</h3>
             <p>
                Esta Coca-Cola es perfecta para compartir en familia, gracias 
@@ -87,7 +96,9 @@
                tradicional.
             </p>
         </div>
+        </div>
         <div class="general-5 txt">
+            <div class="pin">
             <h3> Coca-Cola Lata</h3>
             <p>
                Este envase se creo en la segunda gerra mundial, para que los 
@@ -95,13 +106,16 @@
                manejable y resistente.
             </p>
         </div>
+        </div>
         <div class="general-6 txt">
+            <div class="pin">
             <h3> Coca-Cola Sin azucar</h3>
             <p>
                 Coca-Cola zero azucar es el sabor tradicional de Coca-Cola sin c
             contener azucar. Es una bebida ideal para las personas que se preocupan
                por la ingesta de calorias y que quieren segir disfrutando del sabor de Coca-Cola
             </p>
+        </div>
         </div>
     </div>
     </section>
@@ -140,8 +154,54 @@
         <form>
             <input  class="campo" type="text" placeholder="nombre">
             <input class="campo" type="email" placeholder="Email">
+            <textarea name="" id="coment" placeholder="Comentario"></textarea>
             <input type="submit" class="btn-2" value="Enviar">
         </form>
+    
+
+
+        <div class="media "> 
+            <img src="img coment/joseph-gonzalez-1.jpg" alt="">
+            <div class="media-body">
+                <p class="nombre"> Joseph Gonzales</p> <span>7:51pm, Domingo</span></p>
+                <p class="comentario">
+                    !Amo el sabor refrescante de Coca-Cola¡ Siempre es mi bebida
+                    favorita para acompañar cualquier momento del dia.
+                </p>
+                <div class="botones"> 
+                    <a href="#">Responder</a> 
+                    <a href="#">Editar</a> 
+                    <a href="#">Borrar</a>
+                    </div>
+            </div>
+            <img src="img coment/marcela-valencia-2.jpg" alt="">
+            <div class="media-body">
+                <p class="nombre">Marcela Valencia</p> <span> 10:20pm, Ayer</span></p>
+                <p class="comentario">
+                    Coca-Cola me trae recuerdos de la infancia.!Nada como disfrutar de una botella helada en un
+                    dia caluroso de verano¡.
+                </p>
+                <div class="botones"> 
+                    <a href="#">Responder</a> 
+                    <a href="#">Editar</a> 
+                    <a href="#">Borrar</a>
+                    </div>
+            </div>
+            <img src="img coment/Marco-start-3.jpg" alt="">
+            
+            <div class="media-body">
+                <p class="nombre"> Marco Start</p> <span>6:30am, ayer</span></p>
+                <p class="comentario">
+                    La campaña publicitaria de Coca-Cola siempre me sorprende.
+                    Siempre logran transmitir mensajes positivos y llenos de alegría.
+                </p>
+                <div class="botones"> 
+                    <a href="#">Responder</a> 
+                    <a href="#">Editar</a> 
+                    <a href="#">Borrar</a>
+                    </div>
+            </div>
+        </div>
         <div class="footer-txt">
          <a href="https://www.facebook.com/cocacolacolombia/?locale=es_LA"><img src="img/facebook-circle-logo-24.png" alt="facebook" ></a>
             <a href="https://instagram.com/cocacola?igshid=MWF3MDgya3RsNnFtZA=="><img src="img/instagram-alt-logo-24.png" alt="instagram"></a>
@@ -149,9 +209,6 @@
         </div>
 
     </footer>
-
-
-
-
+    <script src="inicio.js"></script>
 </body>
 </html>

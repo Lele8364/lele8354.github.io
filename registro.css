@@ -3,25 +3,26 @@
     margin: 0%;
     padding: 0%;
 }
+
 .text{
-    height: 11rem;
+    height: 14rem;
     border-radius: 2rem;
-    background-color: rgba(5, 5, 5, 0.568);
+    background-color: rgba(5, 5, 5, 0.884);
 }
 .container {
     position: relative;
     text-align: center;
     color: white;
   }
-  
+
   .container img {
     width: 100%;
     height: auto;
   }
-  
+
   .container .text {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;

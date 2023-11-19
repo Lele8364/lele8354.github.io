@@ -99,18 +99,22 @@ menu label {
     margin-bottom: 45px;
 }
 
-.imagen{
- width: 50px;
- height:40px;
- margin-right: 50rem;
+#png{
+ width: 50%;
+ height:40%;
  margin-top: 5rem;
- margin-left: 4rem;
 }
 
-.Coca-Cola{
-   display: flex;
-   align-items: center;
+.imagen{
+    display: flex;
+    text-align: center;
 }
+
+.content{
+    margin-top: 13rem;
+    margin-right: 6rem;
+}
+
 #coc{
     color: red;
 }
@@ -130,20 +134,11 @@ p{
     font-size: 30px;
 }
 
-.sprite{
-    margin-top: 2rem;
-    display: flex;
-}
-
 #spr{
     color: green;
 }
 #sp{
     color: rgb(25, 138, 25);
-}
-.Fanta{
-    margin-top: 2rem;
-    display: flex;
 }
 
 #fan{
@@ -152,10 +147,6 @@ p{
 #fa{
     color: rgb(241, 122, 23);
 }
-.Nestea{
-    margin-top: 2rem;
-    display: flex;
-}
 
 #nes{
     color: chocolate;
@@ -163,10 +154,11 @@ p{
 #ne{
     color: rgb(240, 131, 53);
 }
-    .Aquarius{
-        margin-top: 2rem;
-        display: flex;
-    }
+
+.aqua{
+    margin: 10rem;
+    text-align: start;
+}
     #aqu{
         color: rgb(4, 77, 95);
     }
@@ -174,32 +166,41 @@ p{
         color: rgb(79, 189, 189);
     }
 
+
+    .trabaja {
+        background-image: url(tr.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        min-height: 80vh;
+        align-items: center;
+        display: flex;
+        border-radius: 5rem;
+        
+    }
+
+    .trabaja p{
+        background-color: rgba(0, 0, 0, 0.39);
+        border-radius: 2rem;
+        color: aliceblue;
+        margin-left: 25rem;
+       text-align:  center;
+    }
+
+    .trabaja button{
+        margin-top: 10rem;
+        background-color: red;
+        font-size: 2rem;
+        border-radius: 1rem;
+    }
+
+    .trabaja p{
+        font-size: 50px;
+    }
+
 .footer{
-    padding: 200% 0 0 0;
+    padding: 7rem 0 0 0;
     text-align: center;
-}
-
-.fotm{
-    margin-top: 35px;
-}
-
-.campo{
-    margin-right: 10px;
-    padding: 17px 35px;
-    border: 2px solid #b4b4b4;
-    outline: none;
-color: #1b293a
-}
-
-.campoc::placeholder{
-    color: #b4b4b4;
-}
-
-.btn-2{
-    padding: 17px 35px;
-    border: 2px solid #1b293a;
-    background-color: #1b293a;
-    color: #fffdfc;
 }
 
 .footer-txt{
